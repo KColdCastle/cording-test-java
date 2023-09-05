@@ -8,9 +8,7 @@ class Solution {
                     .replace(s, my_string.length() - (my_string.substring(s).length() - overwrite_string.length()),
                             overwrite_string)
                     .toString();
-            System.out.println(answer);
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println(e);
         }
         return answer;
     }
